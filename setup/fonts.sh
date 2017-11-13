@@ -1,5 +1,6 @@
+#!/bin/bash
 
-#add powerline fonts to $font_dir (Darwin, Linux)
+#add powerline fonts to font directory (Darwin, Linux)
 
 # clone
 git clone https://github.com/powerline/fonts.git --depth=1
