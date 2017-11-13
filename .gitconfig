@@ -1,0 +1,55 @@
+[user]
+    name = Samet Gunaydin
+    email = rokumatsumoto@gmail.com
+
+[merge]
+  tool = sublimerge
+
+  [mergetool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+  trustExitCode = false
+  keepBackup = true
+
+[diff]
+  tool = sublimerge
+
+  [difftool "sublimerge"]
+  cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
+
+[core]
+  editor = subl -n -
+
+  # excludesfile = ~/dotfiles/.global_ignore
+
+  # Enable parallel I/O for operations like "git diff".
+  preloadindex = true
+  # Use 12 characters for the abbreviated commit hash. I can currently make
+  # do with 10, but this should provide a certain level of safety for the
+  # near-ish future. See the interesting and well-researched article at
+  # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
+  abbrev = 12
+
+[color]
+
+  # Use colors in Git commands that are capable of colored output when
+  # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+  ui = auto
+
+[color "branch"]
+
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+
+  meta = yellow bold
+  frag = magenta bold # line info
+  old = red # deletions
+  new = green # additions
+
+[color "status"]
+
+  added = yellow
+  changed = green
+  untracked = cyan
