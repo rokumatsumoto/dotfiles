@@ -11,11 +11,11 @@ cd ~/dotfiles
 * create symbolic links to config files
 
 ```
-bash ./makesymlinks.sh
+sh ./makesymlinks.sh
 ```
 
 * add powerline fonts to font directory (Darwin, Linux)
 
 ```
-bash ./setup/fonts.sh
+sh ./setup/fonts.sh
 ```

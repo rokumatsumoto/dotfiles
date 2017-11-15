@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs) #time
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv)
 POWERLEVEL9K_STATUS_VERBOSE=false
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
@@ -63,7 +63,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git ruby rails rake rbenv ruby zsh-syntax-highlighting
+  git ruby rails rake rbenv zsh-syntax-highlighting osx
 )
 
 source $ZSH/oh-my-zsh.sh

@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ayu",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Clipboard Manager",
+		"CloseOtherWindows",
+		"CSS3",
+		"DashDoc",
+		"DocBlockr",
+		"Dracula Color Scheme",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"JavaScript Snippets",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery Snippets pack",
+		"Keymaps",
+		"LiveReload",
+		"Markdown Preview",
+		"Origami",
+		"Package Control",
+		"Select Quoted",
+		"Sublime Tutor",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-ruby",
+		"Sublimerge 3",
+		"Terminal",
+		"Theme - Primer",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	]
+}
