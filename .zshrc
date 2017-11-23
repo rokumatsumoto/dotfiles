@@ -1,15 +1,18 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+ZSH_THEME="fino"
+
 # Custom theme
 # https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh
-ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs) #time
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv)
-POWERLEVEL9K_STATUS_VERBOSE=false
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs) #time
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv)
+# POWERLEVEL9K_STATUS_VERBOSE=false
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+# POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 # Font is 14pt Iconsolata for Powerline with Solarized Dark iterm2 colors.
 
 
