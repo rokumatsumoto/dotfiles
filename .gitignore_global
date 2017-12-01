@@ -11,6 +11,7 @@
 *.log
 *.sqlite
 *.sqlite3
+.byebug_history
 
 # OS generated files #
 ######################
@@ -43,4 +44,8 @@ __MACOSX
 *.sublime-project
 *.sublime-workspace
 .idea/
-.byebug_history
+
+
+# Others #
+##########
+.vagrant

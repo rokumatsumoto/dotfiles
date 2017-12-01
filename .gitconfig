@@ -19,7 +19,7 @@
 [core]
   editor = subl -n -
 
-  # excludesfile = ~/dotfiles/.global_ignore
+  excludesfile = ~/.gitignore_global
 
   # Enable parallel I/O for operations like "git diff".
   preloadindex = true
