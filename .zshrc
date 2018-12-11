@@ -100,10 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# PATH=${PATH}:$(brew --prefix sqlite)/bhilburn
 PATH=${PATH}:/usr/local/
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
 PATH=${PATH}:/usr/sbin
+PATH=${PATH}:/usr/local/sbin
 PATH=${PATH}:/sbin
 PATH=${PATH}:/usr/local/opt/rbenv/bin
 PATH=${PATH}:$HOME/.rbenv/shims

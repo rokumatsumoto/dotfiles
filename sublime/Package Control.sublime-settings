@@ -1,10 +1,29 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"urllib",
+			"curl",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"ayu",
@@ -21,22 +40,24 @@
 		"Git",
 		"GitGutter",
 		"JavaScript Snippets",
-		"JavaScriptNext - ES6 Syntax",
 		"jQuery Snippets pack",
 		"Keymaps",
 		"LiveReload",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Origami",
 		"Package Control",
+		"RSpec",
 		"Select Quoted",
 		"Sublime Tutor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"Sublimerge 3",
 		"Terminal",
 		"Theme - Primer",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"View In Browser"
 	]
 }

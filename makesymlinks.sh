@@ -8,3 +8,4 @@ ln -s $HOME/dotfiles/.gemrc $HOME/.gemrc
 # careful -f argument will override your existing sublime text 3 settings.
 ln -s -f $HOME/dotfiles/sublime/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ln -s -f $HOME/dotfiles/sublime/Package\ Control.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+ln -s -f $HOME/dotfiles/sublime/Default\ \(OSX\).sublime-keymap $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap

@@ -3,7 +3,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Dracula (SL).tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"copy_with_empty_selection": true,
 	"draw_indent_guides": false,
 	"draw_minimap_border": true,
@@ -15,6 +15,7 @@
 	"ignored_packages":
 	[
 		"CSS",
+		"SublimeLinter",
 		"Vintage"
 	],
 	"index_files": true,
@@ -31,9 +32,10 @@
 		79
 	],
 	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 2,
-	"theme": "Primer Dark.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,

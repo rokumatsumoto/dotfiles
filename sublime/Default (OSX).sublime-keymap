@@ -1,0 +1,17 @@
+[
+  // { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+x"], "command": "clipboard_manager_cut" },
+  { "keys": ["super+c"], "command": "clipboard_manager_copy" },
+  { "keys": ["super+v"], "command": "clipboard_manager_paste", "args": { "indent": true } },
+  { "keys": ["super+ctrl+v"], "command": "clipboard_manager_paste", "args": { "indent": false } },
+  // { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+alt+v"], "command": "clipboard_manager_next_and_paste" },
+  { "keys": ["super+shift+v"], "command": "clipboard_manager_previous_and_paste" },
+  { "keys": ["super+alt+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
+  {"keys": ["super+alt+i"], "command": "reindent", "args": {"single_line": false}},
+  { "keys" : ["super+shift+,"], "command" : "open_dir", "args" : {"dir" : "$packages"} },
+  {"keys" : ["super+;"], "command": "run_macro", "args": {"file": "function-semicolon}"} },
+  { "keys": ["shift+command+m"], "command": "goto_definition" },
+  //Disable overwrite
+  { "keys": ["super+alt+o"], "command": "unbound" }
+]
