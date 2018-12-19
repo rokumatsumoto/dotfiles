@@ -1,6 +1,7 @@
 [user]
     name = Samet Gunaydin
     email = rokumatsumoto@gmail.com
+    signingkey = A18CF17D0CC244D8
 
 [merge]
   tool = sublimerge
