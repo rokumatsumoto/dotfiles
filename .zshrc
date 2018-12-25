@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# PATH=${PATH}:$(brew --prefix sqlite)/bhilburn
 PATH=${PATH}:/usr/local/
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin

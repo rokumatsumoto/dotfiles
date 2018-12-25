@@ -49,3 +49,4 @@ __MACOSX
 # Others #
 ##########
 .vagrant
+.rspec-local
