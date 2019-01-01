@@ -22,6 +22,10 @@
 
   excludesfile = ~/.gitignore_global
 
+  # https://help.github.com/articles/dealing-with-line-endings/#global-settings-for-line-endings
+  # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+  autocrlf = input
+
   # Enable parallel I/O for operations like "git diff".
   preloadindex = true
   # Use 12 characters for the abbreviated commit hash. I can currently make
@@ -29,6 +33,9 @@
   # near-ish future. See the interesting and well-researched article at
   # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
   abbrev = 12
+
+[commit]
+  gpgsign = true
 
 [color]
 
