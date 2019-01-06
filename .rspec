@@ -4,6 +4,5 @@
 -I<%= ENV['HOME'] %>/ruby/rspec/rspec-print_failures_eagerly/lib
 --require 'rspec/print_failures_eagerly'
 
-# https://github.com/tpope/fivemat
---format Fivemat
+
 

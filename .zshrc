@@ -100,6 +100,26 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# last command copy
+alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
+# sleep wake log
+alias swlog='sudo pmset -g log | sed -E "/Assert|UU/d" | tail -n 50 | pbcopy'
+# html to pdf
+alias h2p='wkhtmltopdf'
+# VDCAssistant is used by the CoreMediaIO Device Abstraction Layer Plug-In
+# that provides video capture from some models of Apple FaceTime cameras
+# and external third-party USB VDC-class cameras using AVFoundation Capture
+# APIs.  The process allows multiple applications to simultaneously capture
+# from the same camera.
+# kill camera
+alias kcamera='killall VDCAssistant'  
+# kill spotlight
+alias kspotlight='killall Spotlight'
+# flush dns
+alias dnsflush='killall -HUP mDNSResponder'
+# my ip
+alias myip='curl icanhazip.com'
+
 PATH=${PATH}:/usr/local/
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
