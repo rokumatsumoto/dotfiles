@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# reload zsh config
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+
 # last command copy
 alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
 # sleep wake log
