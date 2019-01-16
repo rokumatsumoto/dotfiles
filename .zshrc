@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # reload zsh config
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
+# show rails pid
+alias pidrails='lsof -wni tcp:3000'
+
 # last command copy
 alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
 # sleep wake log
