@@ -66,7 +66,7 @@ ZSH_THEME="fino"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git ruby rails rake rbenv zsh-syntax-highlighting osx tmux sublime colored-man-pages
+  git ruby rails rake rbenv zsh-syntax-highlighting osx tmux sublime colored-man-pages bundler
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # reload zsh config
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
+# rails credentials edit
+alias rcedit='EDITOR="subl --wait" bin/rails credentials:edit'
+
 # show rails pid
 alias pidrails='lsof -wni tcp:3000'
 
@@ -118,7 +121,7 @@ alias h2p='wkhtmltopdf'
 # APIs.  The process allows multiple applications to simultaneously capture
 # from the same camera.
 # kill camera
-alias kcamera='killall VDCAssistant'  
+alias kcamera='sudo killall VDCAssistant'  
 # kill spotlight
 alias kspotlight='killall Spotlight'
 # flush dns
@@ -135,5 +138,6 @@ PATH=${PATH}:/sbin
 PATH=${PATH}:/usr/local/opt/rbenv/bin
 PATH=${PATH}:$HOME/.rbenv/shims
 PATH=${PATH}:$HOME/.rbenv/bin
+PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/11/bin
 
 export PATH=${PATH}
