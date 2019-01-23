@@ -1,0 +1,5 @@
+# dotfiles .gitignore
+
+setup-new-mac.sh
+setup/zsh.sh
+ssh/

@@ -1,0 +1,21 @@
+// SublimeLinter Settings - User
+{
+  // Provide extra paths to be searched when locating system executables.
+  "paths": {
+      "linux": [],
+      "osx": [
+        "~/.rbenv/shims"
+      ],
+      "windows": []
+  },
+  "lint_mode": "load_save",
+
+  "linters": {
+      "rubocop": {
+          // "use_bundle_exec": true,
+          "@disable": false,
+          "args": [],
+          "excludes": []
+      }
+  }
+}

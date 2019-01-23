@@ -14,3 +14,4 @@ ln -s $HOME/dotfiles/.mailcap $HOME/.mailcap
 ln -s -f $HOME/dotfiles/sublime/Preferences.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ln -s -f $HOME/dotfiles/sublime/Package\ Control.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
 ln -s -f $HOME/dotfiles/sublime/Default\ \(OSX\).sublime-keymap $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -s -f $HOME/dotfiles/sublime/SublimeLinter.sublime-settings $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SublimeLinter.sublime-settings
