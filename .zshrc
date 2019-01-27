@@ -139,5 +139,6 @@ PATH=${PATH}:/usr/local/opt/rbenv/bin
 PATH=${PATH}:$HOME/.rbenv/shims
 PATH=${PATH}:$HOME/.rbenv/bin
 PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/11/bin
+PATH=${PATH}:$HOME/Library/Python/2.7/bin
 
 export PATH=${PATH}
