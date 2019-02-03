@@ -8,6 +8,7 @@ ln -s $HOME/dotfiles/.rspec $HOME/.rspec
 ln -s $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/dotfiles/.pryrc $HOME/.pryrc
 ln -s $HOME/dotfiles/.mailcap $HOME/.mailcap
+ln -s $HOME/dotfiles/.oh-my-zsh/themes/fino.zsh-theme $HOME/.oh-my-zsh/themes/fino.zsh-theme
 
 
 # careful -f argument will override your existing sublime text 3 settings.

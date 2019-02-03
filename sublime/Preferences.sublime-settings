@@ -6,9 +6,8 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 7,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": true,
-	"draw_indent_guides": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
@@ -57,5 +56,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
-	"word_wrap": true
+	"word_wrap": true,
+	"draw_white_space": "selection"
 }
