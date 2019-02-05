@@ -102,13 +102,12 @@ source $ZSH/oh-my-zsh.sh
 
 # reload zsh config
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
-
 # rails credentials edit
 alias rcedit='EDITOR="subl --wait" bin/rails credentials:edit'
-
 # show rails pid
 alias pidrails='lsof -wni tcp:3000'
-
+# rails db reset
+alias dbreset="rake db:drop && rake db:create && rake db:migrate && rake db:seed"
 # last command copy
 alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
 # sleep wake log
