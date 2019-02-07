@@ -9,6 +9,7 @@
 	"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": true,
 	"draw_minimap_border": true,
+	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
@@ -16,7 +17,8 @@
 		"tmp",
 		"cache",
 		".git",
-		"node_modules"
+		"node_modules",
+		"coverage"
 	],
 	"font_size": 15,
 	"highlight_line": true,
@@ -56,6 +58,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
-	"word_wrap": true,
-	"draw_white_space": "selection"
+	"word_wrap": true
 }
