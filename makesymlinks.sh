@@ -9,6 +9,7 @@ ln -s $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/dotfiles/.pryrc $HOME/.pryrc
 ln -s $HOME/dotfiles/.mailcap $HOME/.mailcap
 ln -s $HOME/dotfiles/.oh-my-zsh/themes/fino.zsh-theme $HOME/.oh-my-zsh/themes/fino.zsh-theme
+ln -s $HOME/dotfiles/.git-commit-template.txt $HOME/.git-commit-template.txt
 
 
 # careful -f argument will override your existing sublime text 3 settings.

@@ -36,6 +36,7 @@
 
 [commit]
   gpgsign = true
+  template =  ~/.git-commit-template.txt
 
 [color]
 
