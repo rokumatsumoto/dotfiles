@@ -85,11 +85,18 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+# added via travis gem
+if test $(which travis); then
+  [ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
+fi
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+export PARALLEL_TEST_PROCESSORS=4
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
