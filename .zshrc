@@ -66,7 +66,7 @@ ZSH_THEME="fino"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git ruby rails rake rbenv zsh-syntax-highlighting osx tmux sublime colored-man-pages bundler
+  git ruby rails rake rbenv zsh-syntax-highlighting osx tmux sublime colored-man-pages bundler zsh-nvm
 )
 
 source $ZSH/oh-my-zsh.sh
