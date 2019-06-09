@@ -49,6 +49,7 @@
 		"HTMLBeautify",
 		"JavaScript Snippets",
 		"jQuery Snippets pack",
+		"JsPrettier",
 		"Keymaps",
 		"LiveReload",
 		"MarkdownPreview",
@@ -65,6 +66,7 @@
 		"Sublime Tutor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"SublimeLinter-haml",
 		"SublimeLinter-haml-lint",
 		"SublimeLinter-rubocop",
@@ -73,6 +75,8 @@
 		"Theme - Primer",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"View In Browser"
+		"View In Browser",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
 	]
 }

@@ -12,10 +12,13 @@
 
   "linters": {
       "rubocop": {
-          // "use_bundle_exec": true,
-          "@disable": false,
-          "args": [],
-          "excludes": []
+        // "use_bundle_exec": true,
+        "@disable": false,
+        "args": [],
+        "excludes": []
+      },
+      "eslint": {
+        "selector": "text.html.vue, source.js - meta.attribute-with-value"
       }
   }
 }
