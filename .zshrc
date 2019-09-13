@@ -148,3 +148,7 @@ PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/11/bin
 PATH=${PATH}:$HOME/Library/Python/2.7/bin
 
 export PATH=${PATH}
+
+# XXX: short circuit tabtab completion auto installation
+# tabtab source for serverless package
+# tabtab source for sls package
