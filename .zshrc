@@ -149,6 +149,7 @@ PATH=${PATH}:$HOME/Library/Python/2.7/bin
 
 export PATH=${PATH}
 
-# XXX: short circuit tabtab completion auto installation
+# NOTE: short circuit tabtab completion auto installation
 # tabtab source for serverless package
 # tabtab source for sls package
+# tabtab source for slss package
