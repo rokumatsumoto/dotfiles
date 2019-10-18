@@ -145,7 +145,9 @@ PATH=${PATH}:/usr/local/opt/rbenv/bin
 PATH=${PATH}:$HOME/.rbenv/shims
 PATH=${PATH}:$HOME/.rbenv/bin
 PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/11/bin
-PATH=${PATH}:$HOME/Library/Python/2.7/bin
+PATH=${PATH}:/usr/local/bin/python3
+PATH=${PATH}:$HOME/.yarn/bin
+PATH=${PATH}:$HOME/.config/yarn/global/node_modules/.bin
 
 export PATH=${PATH}
 
@@ -153,3 +155,5 @@ export PATH=${PATH}
 # tabtab source for serverless package
 # tabtab source for sls package
 # tabtab source for slss package
+
+export GPG_TTY='tty'
