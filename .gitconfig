@@ -3,6 +3,9 @@
     email = rokumatsumoto@gmail.com
     signingkey = A18CF17D0CC244D8
 
+[gpg]
+    program = gpg2
+
 [merge]
   tool = sublimerge
 
