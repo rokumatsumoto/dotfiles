@@ -113,8 +113,7 @@ alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias rcedit='EDITOR="subl --wait" bin/rails credentials:edit'
 # show rails pid
 alias pidrails='lsof -wni tcp:3000'
-# rails db reset
-alias dbreset="rake db:drop && rake db:create && rake db:migrate && rake db:seed"
+alias pry-rails='rails r pry-rails'
 # last command copy
 alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
 # sleep wake log
@@ -144,7 +143,7 @@ PATH=${PATH}:/sbin
 PATH=${PATH}:/usr/local/opt/rbenv/bin
 PATH=${PATH}:$HOME/.rbenv/shims
 PATH=${PATH}:$HOME/.rbenv/bin
-PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/11/bin
+PATH=${PATH}:/Applications/Postgres.app/Contents/Versions/9.6/bin
 PATH=${PATH}:/usr/local/bin/python3
 PATH=${PATH}:$HOME/.yarn/bin
 PATH=${PATH}:$HOME/.config/yarn/global/node_modules/.bin
