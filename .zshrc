@@ -110,10 +110,12 @@ export PARALLEL_TEST_PROCESSORS=4
 # reload zsh config
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 # rails credentials edit
-alias rcedit='EDITOR="subl --wait" bin/rails credentials:edit'
+alias rcedit='EDITOR="code --wait" bin/rails credentials:edit'
 # show rails pid
 alias pidrails='lsof -wni tcp:3000'
 alias pry-rails='rails r pry-rails'
+# rails reset test db
+alias rtdbreset='RAILS_ENV=test bundle exec rake db:drop db:create db:schema:load'
 # last command copy
 alias lcc='fc -ln -1 | awk "{\$1=\$1}1" ORS="" | pbcopy'
 # sleep wake log
